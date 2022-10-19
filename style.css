@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner
+{
+        width: 100;
+        background: linear-gradient(rgba(0,0,0,0.5),#f5ee90),url(1.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+}
+.logo{
+    width: 150px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+.banner-text{
+    text-align: center;
+    color: #000;
+    padding-top: 130px;
+}
+.banner-text h1{
+    font-size: 100px;
+    font-family: 'Kaushan Script', cursive;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.form{
+    width: 250px;
+    height: 375px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0, 0, 0, 0.8)50%);
+    position: absolute;
+    left: 580px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    height: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #e4d720;
+    font-size: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 5px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #e4d720;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: #e4d720;
+    border: none;
+    margin-top: 30px;
+    font-size: 20x;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    font-weight: bold;
+}
+.btn:hover{
+    background: #fff;
+    color: #e4d720;
+}
+.btn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+.form .link a{
+    text-decoration: none;
+    color: #e4d720;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+.icon a{
+    text-decoration: none;
+    color: #fff;
+}
+.icon ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icon ion-icon:hover{
+    color: #e4d720;
+}
+#banner1{
+    width: 100;
+    background: linear-gradient(rgba(0,0,0,0),#f5ee90),url(4.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.logo{
+width: 150px;
+position: absolute;
+top: 4%;
+left: 5%;
+}
+.sideNav{
+    width: 400px;
+    height: 70px;
+    float: right;
+}
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-right: 62px;
+    margin-top: 45px;
+    font-size: 20px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #e4d720;
+}
+.banner1-text{
+    text-align: center;
+    color: #000;
+    padding-top: 550px;
+   
+}
+h1{
+    font-size: 100px;
+    font-family: 'Kaushan Script', cursive;
+}
+#about{
+    width: 100%;
+    padding: 70px 0;
+    background: #f5ee90;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+    font-size: 30px;
+}
+.about-text{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-img{
+    flex-basis: 100%;
+    margin: auto;
+}
+.about-img img{
+    width: 95%;
+    border-radius: 10px;
+    align-items: center; 
+}
+
+/*--footer--*/
+#footer{
+    padding: 100px 0 20px;
+    background: #f5ee90;
+}
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left,.footer-right{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.footer-right{
+    text-align: right;
+}
+.footer-row h1{
+    margin: 10px 0;
+    font-size: 30px;
+    font-family: 'Kaushan Script', cursive;
+}
+.footer-row p{
+    line-height: 35px;
+    font-weight: bold;
+}
+.footer-right .fa{
+    font-size: 20px;
+    color: #e47820;
+    margin: 10px;
+}
+.social-links{
+    text-align: center;
+}
+.social-links .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #e47820 ;
+    margin: 40px 5px 0;
+    color: #e47820;
+    cursor: pointer;
+    transition: .5s;
+}
+.social-links .fa:hover{
+    background: #e47820;
+    color: #000;
+    transform: translateY(-7px);
+}
+
+@media screen and (max-width: 770px){
+    .footer-left,.footer-right{
+        flex-basis: 100%;
+        font-size: 14px;
+    }
+}
+/*--map--*/
+#map{
+    padding: 100px 0 20px;
+    background-image: url(78.jpg);
+}
+.image{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    scale: 1.5;
+}
+#banner2
+{
+        width: 100;
+        background: linear-gradient(rgba(0,0,0,0.5),#f5ee90),url(6.webp);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+}
+.logo{
+    width: 150px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+.banner2-text{
+    text-align: center;
+    color: #000;
+    padding-top: 130px;
+}
+.banner2-text h1{
+    font-size: 100px;
+    font-family: 'Kaushan Script', cursive;
+}
+.banner2-text h2{
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+}
+.banner2-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 3% 0;
+}
+.banner2-col{
+    flex-basis: 28%;
+    padding: 10px ;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #338cb6;
+    cursor: pointer;
+    transition: transform .5s;
+}
+.vbanner2{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.vbanner2 img{
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.vbanner2-info p{
+    font-weight: bold;
+}
+.banner2-col:hover{
+    transform: translateY(-7px);
+}
+#banner3
+{
+        width: 100;
+        background: linear-gradient(rgba(246, 242, 242, 0.5),#f5ee90),url(7.webp);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+}
+.logo{
+    width: 150px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+.banner3-text{
+    text-align: center;
+    color: #000;
+    padding-top: 130px;
+}
+.banner3-text h1{
+    font-size: 100px;
+    font-family: 'Kaushan Script', cursive;
+}
+.banner3-text h2{
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+}
+.banner3-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 3% 0;
+}
+.banner3-col{
+    flex-basis: 28%;
+    padding: 10px ;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #388b28;
+    cursor: pointer;
+    transition: transform .5s;
+}
+.vbanner3{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.vbanner3 img{
+    width: 200px;
+    height: 250px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.vbanner3-info p{
+    font-weight: bolder;
+}
+.banner3-col:hover{
+    transform: translateY(-7px);
+}
+#banner4
+{
+        width: 100;
+        background: linear-gradient(rgba(246, 242, 242, 0.5),#f5ee90),url(21.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+}
+.logo{
+    width: 150px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+.banner4-text{
+    text-align: center;
+    color: #000;
+    padding-top: 130px;
+}
+.banner4-text h1{
+    font-size: 100px;
+    font-family: 'Kaushan Script', cursive;
+}
+.banner4-text h2{
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+}
+.banner2-img img{
+    width: 40%;
+    margin-right: 20px;
+    border-radius: 3px;
+    flex-basis: 50%;
+    padding-left: 450px;
+   
+  
+}
+#banner5
+{
+        width: 100;
+        background: linear-gradient(rgba(246, 242, 242, 0.5),#f5ee90),url(30.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+}
+.logo{
+    width: 150px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+.banner5-text{
+    text-align: center;
+    color: #000;
+    padding-top: 130px;
+}
+.banner5-text h1{
+    font-size: 100px;
+    font-family: 'Kaushan Script', cursive;
+}
+.banner5-text h2{
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+}
+.banner5-img img{
+    width: 40%;
+    margin-right: 20px;
+    border-radius: 3px;
+    flex-basis: 50%;
+    padding-left: 450px;
+   
+  
+}
